@@ -1,0 +1,35 @@
+body{
+    background-image: url("bananas.png");
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #56a5eb;
+    border-radius: 60px;
+    color: black;
+    background-color: yellow;
+}
+  
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+  
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+
+}
+
+#timer {
+    align-content: right;
+}
+
+#home {
+    text-align: center;
+}
