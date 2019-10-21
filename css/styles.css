@@ -9,7 +9,7 @@ body{
 
 .allWindows {
     position: relative;
-
+    width: 100%;
 }
 
 .ribbon {
@@ -59,7 +59,7 @@ body{
     font-size: 15px;
 }
 
-.button, #doIt:hover {
+.button:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 black;
     transform: translateY(-0.1rem);
@@ -159,12 +159,12 @@ body{
     background-color: #fcfcba;
     margin-top: 50px;
     padding-top: 10px;
+    border-top: 4px solid #dddddd; 
     font-size: 10px;
     width: 100%;
     position:absolute;
     bottom:0;
     width:100%;
-    border-top: 4px solid #dddddd;
 }
   
 #footer-text {
